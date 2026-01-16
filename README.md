@@ -31,8 +31,12 @@ A professional Typst package for digital forensics, incident response, and malwa
 
 // MACB timeline
 #macb-timeline(entries: (
-  folder-entry("C:\\Users\\Admin\\", depth: 0, ...),
-  file-entry("malware.exe", depth: 1, highlight: rgb("#fecaca"), ...),
+  folder-entry("C:\\Users\\Admin\\", depth: 0,
+    modified: "2023-10-27 02:00:00", accessed: "2023-10-27 02:01:15",
+    changed: "2023-10-27 02:00:00", birth: "2023-10-27 02:00:00"),
+  file-entry("malware.exe", depth: 1, highlight: rgb("#fecaca"),
+    modified: "2023-10-27 02:00:00", accessed: "2023-10-27 02:01:15",
+    changed: "2023-10-27 02:00:00", birth: "2023-10-27 02:00:00"),
 ))
 
 // IOC table (auto-defangs!)
