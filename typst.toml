@@ -1,0 +1,10 @@
+[package]
+name = "forensix"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["teismar"]
+license = "MIT"
+description = "A package for rendering pretty hex dumps and forensics artifacts."
+keywords = ["hexdump", "forensics", "data visualization"]
+categories = ["visualization", "components"]
+repository = "https://github.com/teismar/typst-forensix"
