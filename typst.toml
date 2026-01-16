@@ -4,7 +4,13 @@ version = "0.1.0"
 entrypoint = "lib.typ"
 authors = ["teismar"]
 license = "MIT"
-description = "A package for rendering pretty hex dumps and forensics artifacts."
-keywords = ["hexdump", "forensics", "data visualization"]
-categories = ["visualization", "components"]
+description = "Render hex dumps, MACB timelines, IOC tables, and TTP references for forensics reports."
+keywords = ["hexdump", "forensics", "malware", "dfir", "incident-response", "mitre-attack"]
+categories = ["visualization", "components", "report"]
+disciplines = ["computer-science"]
 repository = "https://github.com/teismar/typst-forensix"
+exclude = [
+  "/docs/*",
+  "/test/*",
+  "*.yml",
+]

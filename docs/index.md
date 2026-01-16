@@ -6,12 +6,10 @@ A professional Typst package for digital forensics, incident response, and malwa
 
 | Module | Description |
 |--------|-------------|
-| **[Hex Dump](docs/hexdump.md)** | Canonical hex dumps with highlighting, annotations, themes |
-| **[MACB Timeline](docs/macb-timeline.md)** | File tree with MACB timestamps for forensic analysis |
-| **[IOC Table](docs/ioc-table.md)** | Auto-defanging indicators of compromise |
-| **[TTP References](docs/ttp.md)** | Inline MITRE ATT&CK technique cards |
-
-![Examples](readme-quickstart.png)
+| [Hex Dump](hexdump.md) | Canonical hex dumps with highlighting, annotations, themes |
+| [MACB Timeline](macb-timeline.md) | File tree with MACB timestamps for forensic analysis |
+| [IOC Table](ioc-table.md) | Auto-defanging indicators of compromise |
+| [TTP References](ttp.md) | Inline MITRE ATT&CK technique cards |
 
 ## Installation
 
@@ -45,15 +43,6 @@ A professional Typst package for digital forensics, incident response, and malwa
 // Inline TTP references
 The attacker used #ttp("T1059.001") for execution.
 ```
-
-## Documentation
-
-See the [docs/](docs/) folder for detailed configuration options:
-
-- [Hex Dump](docs/hexdump.md) - Themes, highlighting, annotations, byte grouping
-- [MACB Timeline](docs/macb-timeline.md) - File trees, timestamps, anomaly detection
-- [IOC Table](docs/ioc-table.md) - Auto-defanging, type detection, custom types
-- [TTP References](docs/ttp.md) - MITRE ATT&CK integration
 
 ## License
 
