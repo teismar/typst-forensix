@@ -44,6 +44,9 @@ A professional Typst package for digital forensics, incident response, and malwa
 The attacker used #ttp("T1059.001") for execution.
 ```
 
+### Output Example
+![Examples](img/readme-quickstart.png)
+
 ## License
 
 MIT
