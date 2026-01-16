@@ -1,0 +1,33 @@
+name: Test Examples
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  test-compile:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Typst
+        uses: typst-community/setup-typst@v4
+
+      - name: Compile hexdump-examples.typ
+        run: typst compile --root . docs/hexdump-examples.typ
+
+      - name: Compile macb-timeline-examples.typ
+        run: typst compile --root . docs/macb-timeline-examples.typ
+
+      - name: Compile ioc-table-examples.typ
+        run: typst compile --root . docs/ioc-table-examples.typ
+
+      - name: Compile ttp-examples.typ
+        run: typst compile --root . docs/ttp-examples.typ
+
+      - name: Compile readme-examples.typ
+        run: typst compile --root . docs/readme-examples.typ
