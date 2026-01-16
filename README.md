@@ -48,6 +48,10 @@ The attacker used #ttp("T1059.001") for execution.
 
 ## Documentation
 
+### Online
+The full documentation is available online at [teismar.github.io/typst-forensix/](https://teismar.github.io/typst-forensix/).
+
+### Local
 See the [docs/](docs/) folder for detailed configuration options:
 
 - [Hex Dump](docs/hexdump.md) - Themes, highlighting, annotations, byte grouping

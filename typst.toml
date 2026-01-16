@@ -9,6 +9,7 @@ keywords = ["hexdump", "forensics", "malware", "dfir", "incident-response", "mit
 categories = ["visualization", "components", "report"]
 disciplines = ["computer-science"]
 repository = "https://github.com/teismar/typst-forensix"
+homepage = "https://teismar.github.io/typst-forensix/"
 exclude = [
   "/docs/*",
   "/test/*",
